@@ -1,0 +1,82 @@
+body {
+  font: 100% Lucida Sans, Verdana;
+  margin: 20px;
+  line-height: 26px;
+}
+
+#allLayoutStyle1 {
+  position: relative;
+  overflow: auto;
+  min-width: 900px;
+}
+
+#bodyContentContainerStyle1 {
+  display: block;
+  position: relative;
+  overflow: auto;
+}
+#headingContainerStyle1 {
+  background-color: #04aa6d;
+  padding: 14px;
+  border-radius: 4px;
+  margin: 4px;
+  color: white;
+}
+#headingContainerStyle1 h1,
+#headingContainerStyle1 p {
+  margin: 0;
+}
+#menuContainerStyle1 {
+  width: 200px;
+  float: left;
+}
+#menuContainerStyle1 ul {
+  margin: 0;
+  padding: 0;
+}
+#menuContainerStyle1 li {
+  background-color: #f1f1f1;
+  border: 1px solid #d4d4d4;
+  list-style-type: none;
+  padding: 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 4px;
+}
+#menuContainerStyle1 li:hover {
+  background-color: #ffffff;
+}
+#menuContainerStyle1 li:first-child {
+  background-color: #04aa6d;
+  color: white;
+  font-weight: bold;
+}
+#mainContainerStyle1 {
+  padding: 10px;
+  margin: 0 210px;
+}
+#mainContainerStyle1 a {
+  color: #000000;
+}
+#sideBarContainerStyle1 {
+  width: 180px;
+  background-color: #32a4e7;
+  color: #ffffff;
+  padding: 10px;
+  margin: 4px;
+
+  bottom: 0;
+  top: 0;
+  right: 0;
+  position: absolute;
+  border-radius: 4px;
+}
+#bottomContainerStyle1 {
+  border: 1px solid #d4d4d4;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+  font-size: 70%;
+  line-height: 14px;
+  margin: 4px;
+}
